@@ -1,0 +1,69 @@
+ /*************************HTML TAGS*************************/
+
+ body
+ {
+ 	margin-right: 0;
+ 	background-color: #185ADB;
+	padding: 5% 10%;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+h1
+{
+	text-align: center;
+}
+
+a, h2, label
+{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+ /*************************CLASS TAGS*************************/
+
+
+  /*Navigation Bar*/
+.navbar
+{
+	background-color: #000815;
+	border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	padding-left: 2%;
+}
+.navbar-brand
+{
+	font-size: 2rem;
+}
+.nav-item
+{
+	padding: 0 18px;
+}
+.nav-link
+{
+	font-size: 1.2rem;
+	color: #999999;
+}
+.nav-link:hover
+{
+	color: #FFFFFF;
+}
+
+/*************************Contact Form Section*************************/
+
+
+#contact
+{
+	background-color: white;
+	padding: 5% 10%;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+
+.contact-form
+{
+	margin: 5% 0;
+}
+
+.button-submit
+{
+	text-align: center;
+}

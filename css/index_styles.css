@@ -1,0 +1,417 @@
+ /*************************HTML TAGS*************************/
+
+ body
+ {
+ 	margin-right: 0;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+a, h2
+{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+ /*************************Title Section*************************/
+
+
+#title
+{
+	background-color: #000815;
+	padding: 5% 10%;
+}
+
+  /*Navigation Bar*/
+.navbar
+{
+	background-color: #000815;
+}
+.navbar-brand
+{
+	font-size: 2rem;
+}
+.nav-item
+{
+	padding: 0 12px;
+}
+.nav-link
+{
+	font-size: 1.2rem;
+	color: #999999;
+}
+.nav-link:hover
+{
+	color: #FFFFFF;
+}
+
+/*Title Banner*/
+.title-banner
+{
+	margin-top: 5%;
+}
+.big-heading
+{
+	color: white;
+	font-size: 3rem;
+}
+.title-banner-img
+{
+	width: 100%;
+}
+
+
+/*************************About Section*************************/
+
+#about
+{
+	padding: 5% 10%;
+	text-align: center;
+	background-color: #EFEFEF;
+}
+
+.about-box
+{
+	margin: 5% 0;
+}
+
+.about-contents
+{
+	text-align: left;
+}
+
+.list-group-item:hover
+{
+	background-color: #000815;
+	color: white;
+}
+
+.video-box
+{
+	max-width: 100%;
+	margin-bottom: 3%;
+}
+
+.video
+{
+	width: 560px;
+	height: 375px;
+}
+
+
+/*************************Feature Section*************************/
+
+#features
+{
+	padding: 5% 5%;
+	text-align: center;
+	background-color: #185ADB;
+}
+
+.feature-heading
+{
+	color: #EFEFEF;
+}
+.feature-box
+{
+	margin-top: 3rem;
+}
+
+.feature-tile
+{
+	background-color: #EFEFEF;
+	border: 1px solid;
+	border-radius: 0.75rem;
+	border-color: #FFEDA3;
+	width: 26.5625rem;
+	height: 14.0625rem;
+	padding: 1.5rem;
+	margin: 1rem;
+}
+
+.tile-content
+{
+	text-align: left;
+}
+
+
+
+/*************************Course Content Section*************************/
+
+#course-contents
+{
+	padding: 5% 10%;
+	text-align: center;
+}
+
+.contents
+{
+	padding: 3% 16%;
+	text-align: left;
+}
+
+.list-item:hover
+{
+	background-color: #000815;
+	color: white;
+}
+
+/*************************FAQs Section*************************/
+
+#faq
+{
+	color: white;
+	text-align: center;
+	padding: 5% 20%;
+	line-height: 2;
+	background-color: #185ADB;
+}
+
+.faq-box
+{
+	text-align: left;
+}
+
+.accordion
+{
+	border-style: none;
+}
+
+.accordion-item
+{
+	color: black;
+	margin: 3% 0;
+	border: none;
+	border-radius: 2rem;
+}
+
+.accordion-button
+{
+	border-style: none;
+	border-radius: 2rem;
+	background-color: #EFEFEF;
+}
+
+
+
+/*************************Footer Section*************************/
+
+#footer
+{
+	background-color: #000815;
+	padding: 5% 10%;
+	text-align: center;
+	color: #999999;
+
+}
+
+.social-link
+{
+	color: #999999;
+	padding: 2% 1%;
+}
+.social-link:hover
+{
+	color: white;
+}
+.copyright
+{
+	margin: 2%;
+	font-size: 1rem;
+}
+
+
+
+
+/*************************RESPONSIVE SECTION*************************/
+/*************************RESPONSIVE SECTION*************************/
+/*************************RESPONSIVE SECTION*************************/
+/*************************RESPONSIVE SECTION*************************/
+
+
+
+@media (max-width: 1028px)
+{
+	#title
+	{
+		text-align: center;
+	}
+	.title-banner-img
+	{
+		width: 100%;
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 500px)
+{
+	/*************************Title Section*************************/
+		#title
+		{
+			background-color: #000815;
+			padding: 5% 10%;
+			text-align: center;
+		}
+
+		  /*Navigation Bar*/
+		.navbar-brand
+		{
+			font-size: 1rem;
+		}
+		.nav-item
+		{
+			padding: 0 12px;
+		}
+
+		/*Title Banner*/
+		.title-banner
+		{
+			margin-top: 5%;
+		}
+		.big-heading
+		{
+			color: white;
+			font-size: 1.2rem;
+		}
+		.title-banner-img
+		{
+			width: 100%;
+			text-align: left;
+		}
+
+
+		/*************************About Section*************************/
+
+		#about
+		{
+			padding: 10% 0%;
+			text-align: center;
+			background-color: #EFEFEF;
+		}
+
+		.about-heading
+		{
+			font-size: 1rem;
+		}
+
+		.about-contents
+		{
+			text-align: left;
+		}
+
+		.list-group-item:hover
+		{
+			background-color: #000815;
+			color: white;
+		}
+
+		.video-box
+		{
+			max-width: 100%;
+		}
+
+		.video
+		{
+			width: 300px;
+			height: 200px;
+		}
+
+		/*************************Feature Section*************************/
+
+		#features
+		{
+			padding: 10% 0%;
+			text-align: center;
+			background-color: #185ADB;
+		}
+
+		.feature-heading
+		{
+			padding: 0 10%;
+		}
+
+		.feature-heading h2
+		{
+			color: #EFEFEF;
+			font-size: 1.2rem;
+		}
+		.feature-heading h5
+		{
+			color: #EFEFEF;
+			font-size: 1rem;
+		}
+		.feature-box
+		{
+			margin-top: 3rem;
+			padding: 0 10%;
+		}
+
+		.feature-tile
+		{
+			background-color: #EFEFEF;
+			border: 1px solid;
+			border-radius: 0.75rem;
+			border-color: #FFEDA3;
+			width: 21.875rem;
+			height: 7.8125rem;
+			padding: 1.5rem;
+			margin: 1rem;
+		}
+
+		.tile-content
+		{
+			text-align: left;
+		}
+
+		/*************************Course Content Section*************************/
+
+		#course-contents
+		{
+			padding: 10% 3%;
+			text-align: center;
+		}
+
+		.contents
+		{
+			padding: 3% 3%;
+			text-align: left;
+		}
+
+
+		/*************************FAQs Section*************************/
+
+		#faq
+		{
+			color: white;
+			text-align: center;
+			padding: 10% 5%;
+			line-height: 2;
+			background-color: #185ADB;
+		}
+
+		.faq-box
+		{
+			text-align: left;
+		}
+
+		.accordion
+		{
+			border-style: none;
+		}
+
+		.accordion-item
+		{
+			color: black;
+			margin: 3% 0;
+			border: none;
+			border-radius: 2rem;
+		}
+
+		.accordion-button
+		{
+			border-style: none;
+			border-radius: 2rem;
+			background-color: #EFEFEF;
+			font-size: 0.9rem;
+		}
+
+}
